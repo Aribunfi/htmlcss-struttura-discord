@@ -1,13 +1,12 @@
 .container {
     background-color: rgb(163, 210, 246);
     height: 100px;
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: center;
 }
 
 .menu-top {
-    display: flex;
     line-height: 26px;
   }
 
@@ -48,16 +47,80 @@
 .top {
     background-color: blue;
     height: 400px;
-    width: 1200px;
+    width: auto;
 }
 
 .show {
     background-color: plum;
-    align-items: center;
-    width: 500px;
+    width: 700px;
     height: 300px;
     border-color: black;
     border-width: 1px;
     border-style: dashed;
-    justify-content: center;
+    align-content: center;
+}
+
+.bg-white {
+    background-color: white;
+    width: auto;
+    height: 500px;
+    display: flex;
+}
+
+.description-left {
+    background-color: rgb(26, 151, 240);
+    border-color: black;
+    border-width: 1px;
+    border-style: dashed;
+    width: 700px;
+    height: 400px;
+}
+
+.image-right {
+    background-color: pink;
+    border-color: black;
+    border-width: 1px;
+    border-style: dashed;
+    width: 300px;
+    height: 400px;
+   
+}
+
+.bg-grey {
+    background-color: lightgrey;
+    width: auto;
+    height: 500px;
+    display: flex;
+}
+
+.image-left {
+    background-color: pink;
+        border-color: black;
+        border-width: 1px;
+        border-style: dashed;
+        width: 300px;
+        height: 400px;
+}
+.description-right {
+    background-color: rgb(26, 151, 240);
+        border-color: black;
+        border-width: 1px;
+        border-style: dashed;
+        width: 700px;
+        height: 400px;
+}
+
+.summary {
+    background-color: lightgrey;
+    height: 500px;
+    width: auto;
+}
+
+.big-box {
+    width: 700px;
+    height: 400px;
+    background-color: green;
+    border-color: black;
+    border-width: 1px;
+    border-style: dashed;
 }

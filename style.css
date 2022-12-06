@@ -48,6 +48,9 @@
     background-color: blue;
     height: 400px;
     width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .show {
@@ -57,14 +60,15 @@
     border-color: black;
     border-width: 1px;
     border-style: dashed;
-    align-content: center;
-}
+ }
 
 .bg-white {
     background-color: white;
     width: auto;
     height: 500px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .description-left {
@@ -91,6 +95,9 @@
     width: auto;
     height: 500px;
     display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .image-left {
@@ -114,6 +121,9 @@
     background-color: lightgrey;
     height: 500px;
     width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .big-box {
@@ -123,4 +133,39 @@
     border-color: black;
     border-width: 1px;
     border-style: dashed;
+}
+
+.footer-top {
+    background-color: rgb(42, 59, 59);
+    height: 400px;
+    width: auto;
+    border-bottom: 2px;
+    border-bottom-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-lists-menu {
+    background-color: plum;
+    border-color: black;
+    border-width: 1px;
+    border-style: dashed;
+    width: 300px;
+    height: 400px;
+}
+
+.footer-details {
+    background-color: rgb(42, 59, 59);
+    height: 150px;
+    width: auto;
+}
+
+.footer-lists-details {
+    background-color: rgb(30, 210, 234);
+        border-color: black;
+        border-width: 1px;
+        border-style: dashed;
+        width: 700px;
+        height: 400px;
 }

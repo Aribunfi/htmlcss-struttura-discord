@@ -2,10 +2,14 @@
     background-color: rgb(163, 210, 246);
     height: 100px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu-top {
-    flex-direction: row;
+    display: flex;
+    line-height: 26px;
+
     
 }
 
@@ -16,7 +20,7 @@
     height: 50px;
     background-color: orange;
     padding-left: 10px;
-   
+    line-height: 40px;
 }
 
 .link {
@@ -26,6 +30,7 @@
         height: 50px;
         background-color: orange;
         text-align: center;
+        line-height: 40px;
 }
 
 .login {
@@ -36,5 +41,6 @@
         background-color: orange;
         text-align: right;
         padding-right: 10px;
+        line-height: 40px;
 }
 
